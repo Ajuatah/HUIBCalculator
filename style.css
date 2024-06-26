@@ -1,0 +1,61 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  #display {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .buttons button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 16px;
+  }
+  
+
+  /* ... (Basic styling as before) ... */
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+    gap: 10px; /* Add spacing between buttons */
+  }
+  
+  .buttons button {
+    /* ... (Button styling as before) ... */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .operator { /* New class for operator buttons */
+    background-color: #f0ad4e; /* Orange background for operators */
+    color: white;
+  }
+  
+  .function { /* New class for function buttons */
+    background-color: #5bc0de; /* Blue background for functions */
+    color: white;
+  }
+  
+
+  /* ... (Basic styling as before) ... */
+
+.display-screen {
+    background-color: #333; /* Dark background */
+    color: #f08080; /* Light red text color (simulates LED/LCD) */
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: right; /* Align text to the right */
+    font-size: 24px; /* Larger font for better visibility */
+    border: 2px solid #555; /* Beveled border for a 3D effect */
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5); /* Inner shadow for depth */
+  }
+  
+  
